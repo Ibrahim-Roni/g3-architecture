@@ -159,6 +159,76 @@ hr {
 }
 
 
+/* Features you will love & enjoy */
+
+.enjoy {
+    position: relative;
+    margin: auto;
+    height: auto;
+    width: 75%;
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
+}
+
+.enjoy-text {
+    width: 50%;
+}
+
+.enjoy-title {
+    font-size: 2.8rem;
+    width: 70%;
+    padding: 0 20px;
+    border-left: 6px solid var(--main-color);
+}
+
+.enjoy-text p {
+    margin: 30px 0;
+    font-size: 1rem;
+}
+
+.enjoy-box {
+    margin-top: 10px;
+}
+
+.enjoy-features {
+    width: 100%;
+    box-shadow: var(--shadow-color);
+    margin-bottom: 20px;
+    padding: 30px;
+    border-radius: 8px;
+}
+
+.enjoy-features h4 {
+    font-size: 1.3rem;
+}
+
+.enjoy-features > p {
+    margin-top: 20px;
+}
+
+.enjoy-image {
+    width: 50%;
+    padding: 0 0 0 140px;
+}
+
+.enjoy-image img {
+    width: 100%;
+}
+
+#experience-badge {
+    padding: 45px 42px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-top: -100px;
+    margin-left: -100px;
+}
+
+#experience-year {
+    font-size: 4rem;
+    font-weight: 700;
+}
+
 
 /* Responsive website */
 
@@ -228,5 +298,42 @@ hr {
 
     .features-description {
         margin: 30px 0 20px 0;
+    }
+
+    /* Features you will love & enjoy */
+
+    .enjoy {
+        flex-direction: column;
+        width: calc(100% - 40px);
+        margin: 50px 10px 50px 20px;
+        padding: 0;
+    }
+
+
+    .enjoy-title {
+        width: 100%;
+        font-size: 2.2rem;
+    }
+
+    .enjoy-text {
+        width: 100%;
+    }
+
+    .enjoy-image {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .enjoy-image img {
+        width: 100%;
+
+    }
+
+    #experience-badge {
+        padding: 45px 42px;
+        font-size: 1.5rem;
+        font-weight: 500;
+        margin-top: 20px;
+        margin-left: 30px;
     }
 }
