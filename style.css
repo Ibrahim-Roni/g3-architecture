@@ -245,9 +245,6 @@ hr {
     margin-bottom: 30px;
 }
 
-.facts-description br {
-    display: none;
-}
 
 .card-container {
     width: 100%;
@@ -283,6 +280,53 @@ hr {
 
 .cards h6 {
     font-size: 1.25rem;
+}
+
+/* Sponsors */
+
+.sponsors {
+    position: relative;
+    margin: auto;
+    height: auto;
+    width: 75%;
+    margin-top: 50px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sponcors-title {
+    font-size: 2.8rem;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.sponsors-description {
+    text-align: center;
+}
+
+
+.sponsors-images-container {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sponsors-images-container img {
+    filter: grayscale(100%);
+}
+
+
+/* footer */
+
+footer {
+    position: relative;
+    margin: auto;
+    height: 80px;
+    background: var(--bg-color);
+    width: 100%;
+    padding: 30px;
+    margin-top: 80px;
+    text-align: center;
 }
 
 
@@ -390,7 +434,7 @@ hr {
         font-size: 1.5rem;
         font-weight: 500;
         margin-top: 20px;
-        margin-left: 30px;
+        margin-left: 0;
     }
 
 
@@ -401,12 +445,30 @@ hr {
         margin-bottom: 250px;
 
     }
+
+    br {
+        display: none;
+    }
+
     .card-container {
         grid-template-columns: repeat(1, 1fr);
         gap: 20px;
     }
 
     .cards {
+        margin: auto;
+    }
+
+
+    /* Sponsors */
+
+    .sponsors-images-container {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .sponsors-images-container img {
+        width: 50%;
         margin: auto;
     }
 }
